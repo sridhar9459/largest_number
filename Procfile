@@ -1,0 +1,1 @@
+web: streamlit run largest_number_app.py
