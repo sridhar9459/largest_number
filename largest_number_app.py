@@ -1,7 +1,13 @@
 import streamlit as st
 
-def find_largest(num1, num2, num3):
-    return max(num1, num2, num3)
+def find_largest(a,b,c):
+    if (a >= b) and (a >= c): 
+        largest = a 
+    elif (b >= c): 
+        largest = b 
+    else: 
+        largest = c 
+    return largest 
 
 def main():
     st.title("Find the Largest Number")
