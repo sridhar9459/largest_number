@@ -3,7 +3,6 @@ import streamlit as st
 def find_largest(num1, num2, num3):
     return max(num1, num2, num3)
 
-# Streamlit app
 def main():
     st.title("Find the Largest Number")
 
